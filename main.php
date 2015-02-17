@@ -70,6 +70,7 @@ include($dir . '/Class.Puzzle.php');
 include($dir . '/Class.Board.php');
 include($dir . '/Class.Tile.php');
 
+// Change this based on the files in /boards
 $boardNumber = 1;
 
 $board_text = file_get_contents($dir . '/boards/board' . $boardNumber . '.txt');
