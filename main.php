@@ -70,7 +70,7 @@ include($dir . '/Class.Puzzle.php');
 include($dir . '/Class.Board.php');
 include($dir . '/Class.Tile.php');
 
-$boardNumber = 2;
+$boardNumber = 1;
 
 $board_text = file_get_contents($dir . '/boards/board' . $boardNumber . '.txt');
                         include($dir . '/boards/snakes' . $boardNumber . '.php');
