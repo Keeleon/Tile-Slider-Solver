@@ -70,8 +70,12 @@ include($dir . '/Class.Puzzle.php');
 include($dir . '/Class.Board.php');
 include($dir . '/Class.Tile.php');
 
+<<<<<<< HEAD
 // Change this based on the files in /boards
 $boardNumber = 1;
+=======
+$boardNumber = 2;
+>>>>>>> parent of 1e89a48... Changed which board to solve
 
 $board_text = file_get_contents($dir . '/boards/board' . $boardNumber . '.txt');
                         include($dir . '/boards/snakes' . $boardNumber . '.php');
