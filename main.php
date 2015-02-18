@@ -71,8 +71,12 @@ include($dir . '/Class.Board.php');
 include($dir . '/Class.Tile.php');
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 // Change this based on the files in /boards
 $boardNumber = 1;
+=======
+$boardNumber = 2;
+>>>>>>> parent of 1e89a48... Changed which board to solve
 =======
 $boardNumber = 2;
 >>>>>>> parent of 1e89a48... Changed which board to solve
